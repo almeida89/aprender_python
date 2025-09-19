@@ -1,3 +1,4 @@
 motos = ['honda', 'yamaha', 'suzuki']
-motos.insert(0, "ducati")
+print(motos)
+del motos[0]
 print(motos)
