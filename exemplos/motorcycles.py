@@ -1,5 +1,3 @@
-motos = []
-motos.append("honda")
-motos.append("yamaha")
-motos.append("suzuki")
+motos = ['honda', 'yamaha', 'suzuki']
+motos.insert(0, "ducati")
 print(motos)
