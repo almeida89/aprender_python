@@ -1,4 +1,5 @@
 motos = ['honda', 'yamaha', 'suzuki']
 print(motos)
-del motos[0]
+popped_moto = motos.pop()
 print(motos)
+print(popped_moto)
