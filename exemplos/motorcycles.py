@@ -1,3 +1,3 @@
 motos = ['honda', 'yamaha', 'suzuki']
-last_owned = motos.pop()
-print("A última moto comprada foi a " + last_owned.title() + ".")
+first_owned = motos.pop(0)
+print("A primeira moto que eu comprei, foi a " + first_owned.title() + ".")
